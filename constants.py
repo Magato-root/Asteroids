@@ -1,0 +1,23 @@
+#Screen Size
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+
+#Radius of the Players Ship
+PLAYER_RADIUS = 20
+#Width of the lines drawing the Players Ship
+LINE_WIDTH = 2
+
+#This handles the Players Movement
+PLAYER_TURN_SPEED = 300
+PLAYER_SPEED = 200
+
+#This handles the Players Shots
+SHOT_RADIUS = 5
+PLAYER_SHOOT_SPEED = 500
+PLAYER_SHOOT_COOLDOWN_SCEONDS = 0.3
+
+#Asteroid Values
+ASTEROID_MIN_RADIUS = 20
+ASTEROID_KINDS = 3
+ASTEROID_SPAWN_RATE_SECONDS = 0.8
+ASTEROID_MAX_RADIUS = ASTEROID_MIN_RADIUS * ASTEROID_KINDS
